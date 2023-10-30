@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.root {
+    background-color:#7c39af;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header
+{
+    max-width: 100%;
+    background-color: #6d3ba1;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column;
+    position: relative;
+}
+
+.head
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.headerer
+{
+    width: 100%;
+}
+.name-project {
+    margin: 20px;
+}
+/*
+main
+{
+    background-color: #3b1f50;
+    max-width: 95%;
+    margin: 0 auto;
+    border-radius: 15px;
+    position: fixed;
+    bottom: 40%;
+    left: 15%;
+    width: 250px;
+    height: 150px;
+}
+
+main
+{
+    padding: 15px;
+    margin: 10px;
+    margin-top: 40px;
+}
+*/
+.main-section1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+    display: flex;
+    position: fixed;
+    bottom: 45%;
+    left: 20%;
+}
+header h1
+{
+    color: #999999;
+    text-align: center;
+    font-size: 30px;
+}
+li {
+    margin:15px;
+}
+p{
+    color:#999999
+}
+
+/*
+footer
+{
+    background-color: #4b1e79;
+    margin: 0;
+    max-width: 100%;
+    position: fixed;
+    bottom: 0; left: 0;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#podval {
+    color: transparent;
+    background-color: transparent;
+    border: none;
+}
+*/
+
+.logo
+{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+#schet
+{
+    margin: 10px;
+    margin-left: 50px;
+}
+
+input, select, textarea
+{
+    color: #151515;
+    background-color: #606060;
+}
+
+textarea:focus, input:focus
+{
+    color:rgb(203, 105, 223); background-color: #151515;
+}
+#select
+{
+    margin: 10px;
+}
+#Count
+{
+    margin: 10px;
+}
+label
+{
+    color:#999999;
+}
+#Count
+{
+    color:#999999
+}
+#button
+{
+
+    background-color: #999999;
+}
+@media all and (min-width: 900px)
+{
+
+    header {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .headerer {
+        width: 960px;
+        display: flex;
+        justify-content: space-between;
+    }
+    main {
+        max-width: 960px;
+        margin: 0 auto;
+        margin-top: 40px;
+        left: 33%;
+        width: 500px;
+    }
+    .main-section1
+    {
+        left: 42%;
+    }
+    .head {
+        justify-content: left;
+        width: 30%;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: #c2a4c9;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: #4a2222;
+}
+
+.p-5 {
+    background-color: #c2a4c9;
+    padding: 2rem!important;
+}
+
+#mainForm {
+    background-color:#915dc5;
+}
+
+#button {
+    background-color: #999999;
+}
+
+/*
+* {
+    box-sizing: border-box;
+    background-color: #c27fd3;
+}
+/*
+#btn-calc {
+    background-color:#8f23aa;
+}
