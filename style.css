@@ -190,6 +190,10 @@ body {
     padding: 2rem!important;
 }
 
+.border-1 {
+    border-width: 5px!important;
+}
+
 #mainForm {
     background-color:#915dc5;
 }
