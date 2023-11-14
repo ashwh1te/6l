@@ -10,7 +10,7 @@ function buttonClicked() {
     }
 };
 
-// Задание 6
+
 const prices = {
     "pandora": 25530,
     "starline": {
@@ -23,6 +23,7 @@ const prices = {
         "autostart": 9490
     }
 };
+
 
 function update() {
     let radio = document.querySelector('input[name = radioList]:checked');
@@ -63,6 +64,7 @@ function update() {
             console.log("Ошибка. Нет такого числа!");
     }
 };
+
 
 document.addEventListener("DOMContentLoaded", (event) => {
     console.log("DOM loaded and parsed");
